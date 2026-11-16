@@ -1,0 +1,16 @@
+--- a/behavior_prompting/train_network/env_runner/libero_image_runner.py
++++ b/behavior_prompting/train_network/env_runner/libero_image_runner.py
+@@ -763,7 +763,12 @@
+         if policy is not None:
+             policy.reset(action_exec_horizon=self.exec_action_horizon)
+ 
+-        vis_demo_name = os.path.basename(all_video_paths[self.vis_env_index]).replace('.mp4', '')
++        vis_video_path = all_video_paths[self.vis_env_index]
++        # Video recording may be disabled while reward logging is still required.
++        vis_demo_name = (
++            os.path.basename(vis_video_path).replace('.mp4', '')
++            if vis_video_path is not None else self.demo_name
++        )
+ 
+         vis_out_dir = os.path.join(self.output_dir, "vis")
+         os.makedirs(vis_out_dir, exist_ok=True)

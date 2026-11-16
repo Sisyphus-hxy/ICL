@@ -1,0 +1,57 @@
+{
+  "repository": "https://github.com/real-stanford/behavior_prompting.git",
+  "revision": "ec29e62dde999ac3423df7d99a773c1dd28b480e",
+  "checkpoint_repo": "austinpatel/bp_libero",
+  "checkpoint": "libero_behavior_prompting.ckpt",
+  "dataset_repo": "yifengzhu-hf/LIBERO-datasets",
+  "dataset_revision": "f13aa24a3da8c43c7225569f28c562979fa0e35a",
+  "smoke_task": "pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo",
+  "splits": {"libero_spatial": 10, "libero_object": 10, "libero_goal": 10, "libero_10": 10, "libero_90": 90},
+  "benchmarks": {
+    "liberogen_spatial_combination": {
+      "task": "liberogen_spatial_combination",
+      "modifier": "libero/liberogen_spatial_combination",
+      "checkpoint_repo": "austinpatel/bp_liberogen_spatial_combination",
+      "checkpoint": "liberogen_spatial_combination_behavior_prompting.ckpt",
+      "dataset_repo": "austinpatel/libero_gen_spatial_combination_hdf5",
+      "dataset_prefix": "demonstration_data/",
+      "splits": {
+        "libero_spatial_selected_combinations_inverse_view": null,
+        "libero_spatial_selected_combinations_view": null
+      },
+      "unseen_splits": ["libero_spatial_selected_combinations_view"],
+      "smoke_split": "libero_spatial_selected_combinations_view"
+    },
+    "liberogen_goal_chain": {
+      "task": "liberogen_goal_chain",
+      "modifier": "libero/liberogen_goal_chain",
+      "checkpoint_repo": "austinpatel/bp_liberogen_goal_chain",
+      "checkpoint": "liberogen_goal_chain_behavior_prompting.ckpt",
+      "dataset_repo": "austinpatel/libero_gen_goal_chain_hdf5",
+      "dataset_prefix": "demonstration_data/",
+      "splits": {
+        "libero_goal_chain_selected_inverse_view": null,
+        "libero_goal_chain_selected_view": null
+      },
+      "unseen_splits": ["libero_goal_chain_selected_view"],
+      "smoke_split": "libero_goal_chain_selected_view"
+    },
+    "drawanything_sim": {
+      "task": "draw",
+      "config_name": "draw_policy_dunetp",
+      "rollout": "draw",
+      "checkpoint_repo": "austinpatel/drawanything_sim",
+      "checkpoint": "drawanything_sim_behavior_prompting.ckpt",
+      "dataset_repo": "austinpatel/drawanything_sim",
+      "dataset_kind": "zarr",
+      "data_root": "datasets/drawanything",
+      "dataset_prefix": "",
+      "splits": {},
+      "unseen_splits": [],
+      "eval_dataset": "eval_handmade.zarr",
+      "train_dataset": "procedural_2000_10.zarr",
+      "num_training_demos_per_task": 5,
+      "expected_eval_tasks": 50
+    }
+  }
+}

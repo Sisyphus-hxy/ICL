@@ -1,0 +1,62 @@
+# Vendored repos keep their history locally under .git.vendored (see VENDORED.md)
+.git.vendored
+
+# Python / build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# Environments & caches
+.venv/
+venv/
+.wheelcache/
+.cache/
+
+# Data / experiment artifacts
+*.hdf5
+*.h5
+*.npz
+*.npy
+*.mp4
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.onnx
+*.zarr
+*.tfrecord
+*.mcap
+*.bag
+*.log
+wandb/
+
+# Project data directories (not part of the code)
+logs/
+bpp/env/
+bpp/checkpoints/
+bpp/datasets/
+bpp/.cache/
+bpp/logs/
+ContextFlow/data/
+ContextFlow/checkpoints/
+ContextFlow/logs/
+
+# Upstream checkouts, intentionally not vendored (see VENDORED.md)
+bpp/src/deps/LIBERO/
+ContextFlow/third_party/libero/
+
+# bpp/experiments: keep scripts/docs, drop generated outputs
+bpp/experiments/**/*
+!bpp/experiments/**/
+!bpp/experiments/**/*.py
+!bpp/experiments/**/*.sh
+!bpp/experiments/**/*.md
+!bpp/experiments/**/*.yaml
+!bpp/experiments/**/*.yml
+!bpp/experiments/**/*.toml
+!bpp/experiments/**/.gitignore

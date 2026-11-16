@@ -1,0 +1,217 @@
+source_file,dataset_family,family_evidence,num_episodes,attr_num_demos,task_instruction,included_in_primary_audit
+bpp/datasets/libero/libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5,LIBERO,observed data.attrs[tag]=libero-v1,50,50,pick up the black bowl between the plate and the ramekin and place it on the plate,True
+bpp/datasets/libero/libero_spatial_selected_combinations_view/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_cookie_box_demo.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,50,50,pick the akita black bowl from table center and place it on the cookies box,True
+bpp/experiments/clearance/outputs/gpu_aligned/expert_original_narrow.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,expert_original_narrow,False
+bpp/experiments/clearance/outputs/gpu_aligned/expert_original_wide.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,expert_original_wide,False
+bpp/experiments/clearance/outputs/gpu_aligned/expert_relocated_narrow.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,expert_relocated_narrow,False
+bpp/experiments/clearance/outputs/gpu_aligned/expert_relocated_wide.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,expert_relocated_wide,False
+bpp/experiments/clearance/outputs/gpu_aligned/rollout_original_narrow_seed0.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_original_narrow_seed0,False
+bpp/experiments/clearance/outputs/gpu_aligned/rollout_original_wide_seed0.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_original_wide_seed0,False
+bpp/experiments/clearance/outputs/gpu_aligned/rollout_relocated_narrow_seed0.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_relocated_narrow_seed0,False
+bpp/experiments/clearance/outputs/gpu_aligned/rollout_relocated_wide_seed0.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_relocated_wide_seed0,False
+bpp/experiments/clearance/outputs/gpu_pilot/expert_original_narrow.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,expert_original_narrow,False
+bpp/experiments/clearance/outputs/gpu_pilot/expert_original_wide.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,expert_original_wide,False
+bpp/experiments/clearance/outputs/gpu_pilot/expert_relocated_narrow.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,expert_relocated_narrow,False
+bpp/experiments/clearance/outputs/gpu_pilot/expert_relocated_wide.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,expert_relocated_wide,False
+bpp/experiments/clearance/outputs/gpu_transport_start/expert_original_narrow.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,expert_original_narrow,False
+bpp/experiments/clearance/outputs/gpu_transport_start/expert_original_wide.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,expert_original_wide,False
+bpp/experiments/clearance/outputs/gpu_transport_start/expert_relocated_narrow.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,expert_relocated_narrow,False
+bpp/experiments/clearance/outputs/gpu_transport_start/expert_relocated_wide.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,expert_relocated_wide,False
+bpp/experiments/clearance/outputs/gpu_transport_verified/expert_original_narrow.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,expert_original_narrow,False
+bpp/experiments/clearance/outputs/gpu_transport_verified/expert_original_wide.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,expert_original_wide,False
+bpp/experiments/clearance/outputs/gpu_transport_verified/expert_relocated_narrow.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,expert_relocated_narrow,False
+bpp/experiments/clearance/outputs/gpu_transport_verified/expert_relocated_wide.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,expert_relocated_wide,False
+bpp/experiments/clearance/outputs/gpu_transport_verified/rollout_original_narrow_seed0.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_original_narrow_seed0,False
+bpp/experiments/clearance/outputs/gpu_transport_verified/rollout_original_wide_seed0.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_original_wide_seed0,False
+bpp/experiments/clearance/outputs/gpu_transport_verified/rollout_relocated_narrow_seed0.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_relocated_narrow_seed0,False
+bpp/experiments/clearance/outputs/gpu_transport_verified/rollout_relocated_wide_seed0.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_relocated_wide_seed0,False
+bpp/experiments/clearance/outputs/gpu_verified/expert_original_narrow.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,expert_original_narrow,False
+bpp/experiments/clearance/outputs/gpu_verified/expert_original_wide.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,expert_original_wide,False
+bpp/experiments/clearance/outputs/gpu_verified/expert_relocated_narrow.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,expert_relocated_narrow,False
+bpp/experiments/clearance/outputs/gpu_verified/expert_relocated_wide.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,expert_relocated_wide,False
+bpp/experiments/clearance/outputs/gpu_verified/replay_check/transport_restore.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,transport_restore,False
+bpp/experiments/clearance/outputs/gpu_verified/replay_check/transport_restore_exact.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,transport_restore_exact,False
+bpp/experiments/clearance/outputs/gpu_verified/rollout_original_narrow_seed0.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_original_narrow_seed0,False
+bpp/experiments/clearance/outputs/gpu_verified/rollout_original_wide_seed0.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_original_wide_seed0,False
+bpp/experiments/clearance/outputs/gpu_verified/rollout_relocated_narrow_seed0.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_relocated_narrow_seed0,False
+bpp/experiments/clearance/outputs/gpu_verified/rollout_relocated_wide_seed0.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_relocated_wide_seed0,False
+bpp/experiments/clearance/outputs/obsolete_invisible_obstacle_smoke/expert_original_narrow.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,expert_original_narrow,False
+bpp/experiments/clearance/outputs/obsolete_invisible_obstacle_smoke/expert_original_wide.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,expert_original_wide,False
+bpp/experiments/clearance/outputs/obsolete_invisible_obstacle_smoke/expert_relocated_narrow.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,expert_relocated_narrow,False
+bpp/experiments/clearance/outputs/obsolete_invisible_obstacle_smoke/expert_relocated_wide.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,expert_relocated_wide,False
+bpp/experiments/clearance/outputs/obsolete_invisible_obstacle_smoke/rollout_original_narrow_seed0.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_original_narrow_seed0,False
+bpp/experiments/clearance/outputs/obsolete_invisible_obstacle_smoke/rollout_original_wide_seed0.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_original_wide_seed0,False
+bpp/experiments/clearance/outputs/obsolete_invisible_obstacle_smoke/rollout_relocated_narrow_seed0.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_relocated_narrow_seed0,False
+bpp/experiments/clearance/outputs/obsolete_invisible_obstacle_smoke/rollout_relocated_wide_seed0.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_relocated_wide_seed0,False
+bpp/experiments/clearance/outputs/obsolete_unrestored_gripper_diagnostic/expert_original_narrow.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,expert_original_narrow,False
+bpp/experiments/clearance/outputs/obsolete_unrestored_gripper_diagnostic/expert_original_wide.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,expert_original_wide,False
+bpp/experiments/clearance/outputs/obsolete_unrestored_gripper_diagnostic/expert_relocated_narrow.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,expert_relocated_narrow,False
+bpp/experiments/clearance/outputs/obsolete_unrestored_gripper_diagnostic/expert_relocated_wide.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,expert_relocated_wide,False
+bpp/experiments/clearance/outputs/obsolete_unrestored_gripper_diagnostic/rollout_original_narrow_seed0.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_original_narrow_seed0,False
+bpp/experiments/clearance/outputs/obsolete_unrestored_gripper_diagnostic/rollout_original_wide_seed0.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_original_wide_seed0,False
+bpp/experiments/clearance/outputs/obsolete_unrestored_gripper_diagnostic/rollout_relocated_narrow_seed0.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_relocated_narrow_seed0,False
+bpp/experiments/clearance/outputs/obsolete_unrestored_gripper_diagnostic/rollout_relocated_wide_seed0.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_relocated_wide_seed0,False
+bpp/experiments/clearance/outputs/physics_validation/expert_original_narrow.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,expert_original_narrow,False
+bpp/experiments/clearance/outputs/physics_validation/expert_original_wide.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,expert_original_wide,False
+bpp/experiments/clearance/outputs/physics_validation/expert_relocated_narrow.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,expert_relocated_narrow,False
+bpp/experiments/clearance/outputs/physics_validation/expert_relocated_wide.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,expert_relocated_wide,False
+bpp/experiments/clearance/outputs/pilot/expert_original_narrow.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,expert_original_narrow,False
+bpp/experiments/clearance/outputs/pilot/expert_original_wide.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,expert_original_wide,False
+bpp/experiments/clearance/outputs/pilot/expert_relocated_narrow.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,expert_relocated_narrow,False
+bpp/experiments/clearance/outputs/pilot/expert_relocated_wide.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,expert_relocated_wide,False
+bpp/experiments/clearance/outputs/pilot/replay_check/replay_from_transport.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,replay_from_transport,False
+bpp/experiments/clearance/outputs/pilot/replay_check/replay_from_transport_fixed.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,replay_from_transport_fixed,False
+bpp/experiments/clearance/outputs/pilot/replay_check/replay_original_narrow.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,replay_original_narrow,False
+bpp/experiments/clearance/outputs/pilot/rollout_original_narrow_seed0.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_original_narrow_seed0,False
+bpp/experiments/clearance/outputs/pilot/rollout_original_wide_seed0.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_original_wide_seed0,False
+bpp/experiments/clearance/outputs/pilot/rollout_relocated_narrow_seed0.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_relocated_narrow_seed0,False
+bpp/experiments/clearance/outputs/pilot/rollout_relocated_wide_seed0.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_relocated_wide_seed0,False
+bpp/experiments/clearance/outputs/tuning/expert_original_narrow.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,expert_original_narrow,False
+bpp/experiments/clearance/outputs/tuning2/expert_original_narrow.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,expert_original_narrow,False
+bpp/experiments/clearance/outputs/tuning3/expert_original_narrow.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,expert_original_narrow,False
+bpp/experiments/clearance/outputs/tuning4/expert_original_narrow.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,expert_original_narrow,False
+bpp/experiments/clearance/outputs/tuning4/expert_relocated_narrow.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,expert_relocated_narrow,False
+bpp/experiments/meaningful_swap/outputs/gentle/gentle_demo.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,gentle_demo,False
+bpp/experiments/meaningful_swap/outputs/gentle/normal_demo.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,normal_demo,False
+bpp/experiments/meaningful_swap/outputs/obstacle/direct_demo.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,direct_demo,False
+bpp/experiments/meaningful_swap/outputs/obstacle/narrow_demo.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,narrow_demo,False
+bpp/experiments/meaningful_swap/outputs/obstacle/wide_demo.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,wide_demo,False
+bpp/experiments/meaningful_swap/outputs/obstacle2/_tuning.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,_tuning,False
+bpp/experiments/meaningful_swap/outputs/obstacle2/direct_demo.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,direct_demo,False
+bpp/experiments/meaningful_swap/outputs/obstacle2/narrow_demo.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,narrow_demo,False
+bpp/experiments/meaningful_swap/outputs/obstacle2/wide_demo.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,wide_demo,False
+bpp/experiments/meaningful_swap/outputs/obstacle4/_tuning.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,_tuning,False
+bpp/experiments/meaningful_swap/outputs/obstacle4/direct_demo.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,direct_demo,False
+bpp/experiments/meaningful_swap/outputs/obstacle4/narrow_demo.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,narrow_demo,False
+bpp/experiments/meaningful_swap/outputs/obstacle4/rollout_seed0_narrow.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_seed0_narrow,False
+bpp/experiments/meaningful_swap/outputs/obstacle4/rollout_seed0_wide.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_seed0_wide,False
+bpp/experiments/meaningful_swap/outputs/obstacle4/rollout_seed1_narrow.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_seed1_narrow,False
+bpp/experiments/meaningful_swap/outputs/obstacle4/rollout_seed1_wide.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_seed1_wide,False
+bpp/experiments/meaningful_swap/outputs/obstacle4/rollout_seed2_narrow.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_seed2_narrow,False
+bpp/experiments/meaningful_swap/outputs/obstacle4/rollout_seed2_wide.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_seed2_wide,False
+bpp/experiments/meaningful_swap/outputs/obstacle4/rollout_seed3_narrow.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_seed3_narrow,False
+bpp/experiments/meaningful_swap/outputs/obstacle4/rollout_seed3_wide.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_seed3_wide,False
+bpp/experiments/meaningful_swap/outputs/obstacle4/rollout_seed4_narrow.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_seed4_narrow,False
+bpp/experiments/meaningful_swap/outputs/obstacle4/rollout_seed4_wide.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_seed4_wide,False
+bpp/experiments/meaningful_swap/outputs/obstacle4/rollout_seed5_narrow.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_seed5_narrow,False
+bpp/experiments/meaningful_swap/outputs/obstacle4/rollout_seed5_wide.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_seed5_wide,False
+bpp/experiments/meaningful_swap/outputs/obstacle4/rollout_seed6_narrow.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_seed6_narrow,False
+bpp/experiments/meaningful_swap/outputs/obstacle4/rollout_seed6_wide.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_seed6_wide,False
+bpp/experiments/meaningful_swap/outputs/obstacle4/rollout_seed7_narrow.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_seed7_narrow,False
+bpp/experiments/meaningful_swap/outputs/obstacle4/rollout_seed7_wide.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_seed7_wide,False
+bpp/experiments/meaningful_swap/outputs/obstacle4/rollout_seed8_narrow.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_seed8_narrow,False
+bpp/experiments/meaningful_swap/outputs/obstacle4/rollout_seed8_wide.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_seed8_wide,False
+bpp/experiments/meaningful_swap/outputs/obstacle4/rollout_seed9_narrow.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_seed9_narrow,False
+bpp/experiments/meaningful_swap/outputs/obstacle4/rollout_seed9_wide.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,rollout_seed9_wide,False
+bpp/experiments/meaningful_swap/outputs/obstacle4/wide_demo.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,wide_demo,False
+bpp/experiments/native_prompt_swap/outputs/native_regression/curved_demo.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,curved_demo,False
+bpp/experiments/native_prompt_swap/outputs/native_regression/original_replayed_demo.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,original_replayed_demo,False
+bpp/experiments/native_prompt_swap/outputs/offset3cm/curved_demo.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,curved_demo,False
+bpp/experiments/native_prompt_swap/outputs/offset3cm/original_replayed_demo.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,original_replayed_demo,False
+bpp/experiments/native_prompt_swap/outputs/offset5cm/curved_demo.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,curved_demo,False
+bpp/experiments/native_prompt_swap/outputs/offset5cm/original_replayed_demo.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,original_replayed_demo,False
+bpp/experiments/native_prompt_swap/outputs/paired10/curved_demo.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,curved_demo,False
+bpp/experiments/native_prompt_swap/outputs/paired10_controlled/curved_demo.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,curved_demo,False
+bpp/experiments/native_prompt_swap/outputs/paired10_controlled/original_replayed_demo.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,original_replayed_demo,False
+bpp/experiments/native_prompt_swap/outputs/sensitivity_1p5/curved_demo.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,curved_demo,False
+bpp/experiments/native_prompt_swap/outputs/sensitivity_1p5/original_replayed_demo.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,original_replayed_demo,False
+bpp/experiments/procedural_constraints/data/c0_baseline/gentle_transport/layout_00/seed0/original.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,original,False
+bpp/experiments/procedural_constraints/data/c0_baseline/gentle_transport/layout_00/seed1/original.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,original,False
+bpp/experiments/procedural_constraints/data/c0_baseline/gentle_transport/layout_01/seed0/original.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,original,False
+bpp/experiments/procedural_constraints/data/c0_baseline/gentle_transport/layout_01/seed1/original.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,original,False
+bpp/experiments/procedural_constraints/data/c0_baseline/gentle_transport/layout_02/seed0/original.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,original,False
+bpp/experiments/procedural_constraints/data/c0_baseline/gentle_transport/layout_02/seed1/original.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,original,False
+bpp/experiments/procedural_constraints/data/c0_baseline/gentle_transport/layout_03/seed0/original.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,original,False
+bpp/experiments/procedural_constraints/data/c0_baseline/gentle_transport/layout_03/seed1/original.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,original,False
+bpp/experiments/procedural_constraints/data/c0_baseline/gentle_transport/layout_04/seed0/original.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,original,False
+bpp/experiments/procedural_constraints/data/c0_baseline/gentle_transport/layout_04/seed1/original.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,original,False
+bpp/experiments/procedural_constraints/data/c0_baseline/obstacle_clearance/layout_00/seed0/original.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,original,False
+bpp/experiments/procedural_constraints/data/c0_baseline/obstacle_clearance/layout_00/seed1/original.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,original,False
+bpp/experiments/procedural_constraints/data/c0_baseline/obstacle_clearance/layout_01/seed0/original.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,original,False
+bpp/experiments/procedural_constraints/data/c0_baseline/obstacle_clearance/layout_01/seed1/original.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,original,False
+bpp/experiments/procedural_constraints/data/c0_baseline/obstacle_clearance/layout_02/seed0/original.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,original,False
+bpp/experiments/procedural_constraints/data/c0_baseline/obstacle_clearance/layout_02/seed1/original.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,original,False
+bpp/experiments/procedural_constraints/data/c0_baseline/obstacle_clearance/layout_03/seed0/original.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,original,False
+bpp/experiments/procedural_constraints/data/c0_baseline/obstacle_clearance/layout_03/seed1/original.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,original,False
+bpp/experiments/procedural_constraints/data/c0_baseline/obstacle_clearance/layout_04/seed0/original.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,original,False
+bpp/experiments/procedural_constraints/data/c0_baseline/obstacle_clearance/layout_04/seed1/original.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,original,False
+bpp/experiments/procedural_constraints/data/minimal/gentle_transport/layout_00/gentle.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,gentle,False
+bpp/experiments/procedural_constraints/data/minimal/gentle_transport/layout_00/normal.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,normal,False
+bpp/experiments/procedural_constraints/data/minimal/gentle_transport/layout_01/gentle.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,gentle,False
+bpp/experiments/procedural_constraints/data/minimal/gentle_transport/layout_01/normal.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,normal,False
+bpp/experiments/procedural_constraints/data/minimal/gentle_transport/layout_02/gentle.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,gentle,False
+bpp/experiments/procedural_constraints/data/minimal/gentle_transport/layout_02/normal.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,normal,False
+bpp/experiments/procedural_constraints/data/minimal/gentle_transport/layout_03/gentle.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,gentle,False
+bpp/experiments/procedural_constraints/data/minimal/gentle_transport/layout_03/normal.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,normal,False
+bpp/experiments/procedural_constraints/data/minimal/gentle_transport/layout_04/gentle.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,gentle,False
+bpp/experiments/procedural_constraints/data/minimal/gentle_transport/layout_04/normal.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,normal,False
+bpp/experiments/procedural_constraints/data/minimal/obstacle_clearance/layout_00/narrow.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,narrow,False
+bpp/experiments/procedural_constraints/data/minimal/obstacle_clearance/layout_00/wide.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,wide,False
+bpp/experiments/procedural_constraints/data/minimal/obstacle_clearance/layout_01/narrow.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,narrow,False
+bpp/experiments/procedural_constraints/data/minimal/obstacle_clearance/layout_01/wide.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,wide,False
+bpp/experiments/procedural_constraints/data/minimal/obstacle_clearance/layout_02/narrow.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,narrow,False
+bpp/experiments/procedural_constraints/data/minimal/obstacle_clearance/layout_02/wide.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,wide,False
+bpp/experiments/procedural_constraints/data/minimal/obstacle_clearance/layout_03/narrow.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,narrow,False
+bpp/experiments/procedural_constraints/data/minimal/obstacle_clearance/layout_03/wide.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,wide,False
+bpp/experiments/procedural_constraints/data/minimal/obstacle_clearance/layout_04/narrow.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,narrow,False
+bpp/experiments/procedural_constraints/data/minimal/obstacle_clearance/layout_04/wide.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,wide,False
+bpp/experiments/procedural_constraints/data/zero_shot/gentle_transport/layout_00/seed0/gentle.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,gentle,False
+bpp/experiments/procedural_constraints/data/zero_shot/gentle_transport/layout_00/seed0/normal.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,normal,False
+bpp/experiments/procedural_constraints/data/zero_shot/gentle_transport/layout_00/seed1/gentle.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,gentle,False
+bpp/experiments/procedural_constraints/data/zero_shot/gentle_transport/layout_00/seed1/normal.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,normal,False
+bpp/experiments/procedural_constraints/data/zero_shot/gentle_transport/layout_01/seed0/gentle.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,gentle,False
+bpp/experiments/procedural_constraints/data/zero_shot/gentle_transport/layout_01/seed0/normal.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,normal,False
+bpp/experiments/procedural_constraints/data/zero_shot/gentle_transport/layout_01/seed1/gentle.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,gentle,False
+bpp/experiments/procedural_constraints/data/zero_shot/gentle_transport/layout_01/seed1/normal.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,normal,False
+bpp/experiments/procedural_constraints/data/zero_shot/gentle_transport/layout_02/seed0/gentle.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,gentle,False
+bpp/experiments/procedural_constraints/data/zero_shot/gentle_transport/layout_02/seed0/normal.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,normal,False
+bpp/experiments/procedural_constraints/data/zero_shot/gentle_transport/layout_02/seed1/gentle.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,gentle,False
+bpp/experiments/procedural_constraints/data/zero_shot/gentle_transport/layout_02/seed1/normal.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,normal,False
+bpp/experiments/procedural_constraints/data/zero_shot/gentle_transport/layout_03/seed0/gentle.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,gentle,False
+bpp/experiments/procedural_constraints/data/zero_shot/gentle_transport/layout_03/seed0/normal.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,normal,False
+bpp/experiments/procedural_constraints/data/zero_shot/gentle_transport/layout_03/seed1/gentle.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,gentle,False
+bpp/experiments/procedural_constraints/data/zero_shot/gentle_transport/layout_03/seed1/normal.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,normal,False
+bpp/experiments/procedural_constraints/data/zero_shot/gentle_transport/layout_04/seed0/gentle.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,gentle,False
+bpp/experiments/procedural_constraints/data/zero_shot/gentle_transport/layout_04/seed0/normal.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,normal,False
+bpp/experiments/procedural_constraints/data/zero_shot/gentle_transport/layout_04/seed1/gentle.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,gentle,False
+bpp/experiments/procedural_constraints/data/zero_shot/gentle_transport/layout_04/seed1/normal.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,normal,False
+bpp/experiments/procedural_constraints/data/zero_shot/obstacle_clearance/layout_00/seed0/narrow.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,narrow,False
+bpp/experiments/procedural_constraints/data/zero_shot/obstacle_clearance/layout_00/seed0/wide.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,wide,False
+bpp/experiments/procedural_constraints/data/zero_shot/obstacle_clearance/layout_00/seed1/narrow.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,narrow,False
+bpp/experiments/procedural_constraints/data/zero_shot/obstacle_clearance/layout_00/seed1/wide.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,wide,False
+bpp/experiments/procedural_constraints/data/zero_shot/obstacle_clearance/layout_01/seed0/narrow.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,narrow,False
+bpp/experiments/procedural_constraints/data/zero_shot/obstacle_clearance/layout_01/seed0/wide.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,wide,False
+bpp/experiments/procedural_constraints/data/zero_shot/obstacle_clearance/layout_01/seed1/narrow.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,narrow,False
+bpp/experiments/procedural_constraints/data/zero_shot/obstacle_clearance/layout_01/seed1/wide.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,wide,False
+bpp/experiments/procedural_constraints/data/zero_shot/obstacle_clearance/layout_02/seed0/narrow.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,narrow,False
+bpp/experiments/procedural_constraints/data/zero_shot/obstacle_clearance/layout_02/seed0/wide.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,wide,False
+bpp/experiments/procedural_constraints/data/zero_shot/obstacle_clearance/layout_02/seed1/narrow.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,narrow,False
+bpp/experiments/procedural_constraints/data/zero_shot/obstacle_clearance/layout_02/seed1/wide.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,wide,False
+bpp/experiments/procedural_constraints/data/zero_shot/obstacle_clearance/layout_03/seed0/narrow.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,narrow,False
+bpp/experiments/procedural_constraints/data/zero_shot/obstacle_clearance/layout_03/seed0/wide.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,wide,False
+bpp/experiments/procedural_constraints/data/zero_shot/obstacle_clearance/layout_03/seed1/narrow.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,narrow,False
+bpp/experiments/procedural_constraints/data/zero_shot/obstacle_clearance/layout_03/seed1/wide.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,wide,False
+bpp/experiments/procedural_constraints/data/zero_shot/obstacle_clearance/layout_04/seed0/narrow.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,narrow,False
+bpp/experiments/procedural_constraints/data/zero_shot/obstacle_clearance/layout_04/seed0/wide.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,wide,False
+bpp/experiments/procedural_constraints/data/zero_shot/obstacle_clearance/layout_04/seed1/narrow.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,narrow,False
+bpp/experiments/procedural_constraints/data/zero_shot/obstacle_clearance/layout_04/seed1/wide.hdf5,LIBERO-Gen/custom,inferred from path/episode seed; no explicit LIBERO-Gen tag,1,,wide,False
+bpp/experiments/procedural_demos/outputs/cup/layout_00/gentle.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,gentle,False
+bpp/experiments/procedural_demos/outputs/cup/layout_00/normal.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,normal,False
+bpp/experiments/procedural_demos/outputs/cup/layout_01/gentle.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,gentle,False
+bpp/experiments/procedural_demos/outputs/cup/layout_01/normal.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,normal,False
+bpp/experiments/procedural_demos/outputs/cup/layout_02/gentle.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,gentle,False
+bpp/experiments/procedural_demos/outputs/cup/layout_02/normal.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,normal,False
+bpp/experiments/procedural_demos/outputs/cup/layout_03/gentle.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,gentle,False
+bpp/experiments/procedural_demos/outputs/cup/layout_03/normal.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,normal,False
+bpp/experiments/procedural_demos/outputs/cup/layout_04/gentle.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,gentle,False
+bpp/experiments/procedural_demos/outputs/cup/layout_04/normal.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,normal,False
+bpp/experiments/procedural_demos/outputs/obstacle/layout_00/narrow.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,narrow,False
+bpp/experiments/procedural_demos/outputs/obstacle/layout_00/wide.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,wide,False
+bpp/experiments/procedural_demos/outputs/obstacle/layout_03/narrow.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,narrow,False
+bpp/experiments/procedural_demos/outputs/obstacle/layout_03/wide.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,wide,False
+bpp/experiments/procedural_demos/outputs/obstacle/layout_05/narrow.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,narrow,False
+bpp/experiments/procedural_demos/outputs/obstacle/layout_05/wide.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,wide,False
+bpp/experiments/procedural_demos/outputs/obstacle/layout_08/narrow.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,narrow,False
+bpp/experiments/procedural_demos/outputs/obstacle/layout_08/wide.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,wide,False
+bpp/experiments/procedural_demos/outputs/obstacle/layout_11/narrow.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,narrow,False
+bpp/experiments/procedural_demos/outputs/obstacle/layout_11/wide.hdf5,other canonical HDF5,"canonical data/demo_* schema, outside LIBERO dataset root",1,,wide,False
