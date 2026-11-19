@@ -50,6 +50,11 @@ ContextFlow/logs/
 bpp/src/deps/LIBERO/
 ContextFlow/third_party/libero/
 
+# vjepa_probe: upstream clone, model checkpoint, and generated probe outputs
+vjepa_probe/third_party/
+vjepa_probe/checkpoints/
+vjepa_probe/outputs/
+
 # bpp/experiments: keep scripts/docs, drop generated outputs
 bpp/experiments/**/*
 !bpp/experiments/**/
