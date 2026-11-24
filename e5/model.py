@@ -298,25 +298,34 @@ class ResidualTransformer(nn.Module):
         nn.init.zeros_(self.out_proj.weight)
         nn.init.zeros_(self.out_proj.bias)
 
-    def forward(self, z_ref: torch.Tensor, h_q: torch.Tensor) -> torch.Tensor:
+    def forward(
+        self,
+        z_ref: torch.Tensor,
+        h_q: torch.Tensor,
+        *,
+        output_scale: Optional[float] = None,
+    ) -> torch.Tensor:
         if z_ref.shape != h_q.shape:
             raise ValueError(
                 f"z_ref {tuple(z_ref.shape)} and h_q {tuple(h_q.shape)} must match"
             )
-        ref_scale = (
-            z_ref.detach()
-            .float()
-            .square()
-            .mean(dim=(-2, -1), keepdim=True)
-            .clamp_min(1e-6)
-            .sqrt()
-        )
         h = self.decoder(
             tgt=self.ref_in_norm(z_ref) + self.ref_pos_emb,
             memory=self.query_in_norm(h_q) + self.query_pos_emb,
         )
-        # Scale dimensionless zero-init residual back to z_ref's natural RMS scale.
-        return self.out_proj(self.out_norm(h)) * ref_scale.to(dtype=h.dtype)
+        out = self.out_proj(self.out_norm(h))
+        if output_scale is None:
+            ref_scale = (
+                z_ref.detach()
+                .float()
+                .square()
+                .mean(dim=(-2, -1), keepdim=True)
+                .clamp_min(1e-6)
+                .sqrt()
+            )
+            # Scale dimensionless zero-init residual back to z_ref's natural RMS scale.
+            return out * ref_scale.to(dtype=h.dtype)
+        return out * float(output_scale)
 
 
 class E5Policy(nn.Module):
